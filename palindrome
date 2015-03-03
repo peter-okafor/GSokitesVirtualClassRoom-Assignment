@@ -1,0 +1,18 @@
+// The Function
+	public Comparable changer(String word) //Comparable allows you return any data type
+	{
+	  String result = new StringBuilder(word).reverse().toString();
+	  
+	  if (word == result)
+	  {
+		return true;
+	  }
+	  else if (word == "")
+	  {
+	    return null;
+	  }
+	  else
+	  {
+	  return result;
+	  }
+	}
